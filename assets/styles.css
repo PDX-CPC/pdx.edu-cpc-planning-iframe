@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #efefef;
+    background-color: #eeefef;
     padding: 0;
     margin: 0;
 }
@@ -22,9 +22,9 @@ h2 {
     font-size: 3em; 
     color: #6d8d23;
     font-family: "Oswald";
-    background-color: #efefef;
+    background-color: #eeefef;
     margin: 0;
-    padding: .5% 0 .5% .5%;
+    padding: .5% 0 .5% 2%;
 }
 
 .tablink-container {
@@ -36,7 +36,7 @@ h2 {
 .tablink {
     font-family: "Oswald";
     font-size: 16pt;
-    background-color: #efefef;
+    background-color: #eeefef;
     color: #131313;
     cursor: pointer;
     padding: 5% 0 5% 0;
@@ -47,21 +47,21 @@ h2 {
 
 .tablink:hover {
     background-color: #445209;
-    color: #efefef;
+    color: #eeefef;
 }
 
 .tablink:active {
     background-color: #6d8d23;
-    color: #efefef;
+    color: #eeefef;
 }
 
 .tablink:focus {
-    color: #efefef;
+    color: #eeefef;
 }
 
 .tabcontent {
     font-family: arial;
-    color: #efefef;
+    color: #eeefef;
     display: none;
     padding: .5em;
     height: auto;
