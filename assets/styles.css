@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("Oswald-Medium.woff2") format("woff2"),
+         url("Oswald-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #efefef;
     padding: 0;
@@ -16,10 +24,12 @@ body {
 }
 
 .tablink {
+    font-family: "Oswald";
+    font-size: 16pt;
     background-color: #efefef;
     color: #131313;
     cursor: pointer;
-    padding: .5em 0 .5em 0;
+    padding: 5% 0 5% 0;
     width: 25%;
     border: none;
     outline: none;
@@ -27,31 +37,42 @@ body {
 
 .tablink:hover {
     background-color: #445209;
+    color: #efefef;
 }
 
 .tablink:active {
     background-color: #6d8d23;
+    color: #efefef;
+}
+
+.tablink:focus {
+    color: #efefef;
 }
 
 .tabcontent {
+    font-family: arial;
     color: #efefef;
     display: none;
     padding: .5em;
-    height: 100%;
+    height: auto;
+}
+
+.tabcontent h3 {
+    font-family: "Oswald";
 }
 
 #basic {
-    background-color: pink;
+    background-color: #6d8d23;
 }
 
 #tab2 {
-    background-color: aqua;
+    background-color: #6d8d23;
 }
 
 #tab3 {
-    background-color: purple;
+    background-color: #6d8d23;
 }
 
 #tab4 {
-    background-color: indianred;
+    background-color: #6d8d23;
 }
