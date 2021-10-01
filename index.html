@@ -15,9 +15,40 @@
         <meta charset="UTF-8">
         <!--gives the site/file a description-->
         <meta name="description" content="">
+        
+        <!--runs a bit of necessary script for onclick-->
+        <script src="assets/onclick.js"></script>
     </head>
     <div class="main-box">
-    r
+        
+        <div class="tablink-container">
+            <button class="tablink" onclick="openPage('basic', this, '#6d8d23')">Basic</button>
+            <button class="tablink" onclick="openPage('tab1', this, '#6d8d23')" id="defaultOpen">Tab 2</button>
+            <button class="tablink" onclick="openPage('tab2', this, '#6d8d23')">Tab 3</button>
+            <button class="tablink" onclick="openPage('tab3', this, '#6d8d23')">Tab 4</button>
+        </div>
+        
+        <div id="basic" class="tabcontent">
+            <h3>Test Title 1</h3>
+            <p>Test Content 1</p>
+        </div>
+        
+        <div id="tab2" class="tabcontent">
+            <h3>Test Title 2</h3>
+            <p>Test Content 2</p>
+        </div>
+        
+        <div id="tab3" class="tabcontent">
+            <h3>Test Title 3</h3>
+            <p>Test Content 3</p>
+        </div>
+        
+        <div id="tab4" class="tabcontent">
+            <h3>Test Title 4</h3>
+            <p>Test Content 4</p>
+        </div>
+        
+        
     </div>
     
     

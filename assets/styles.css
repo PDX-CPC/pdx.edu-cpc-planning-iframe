@@ -1,11 +1,57 @@
 body {
-  background-color: #efefef;
-  padding: 0;
-  margin: 0;
+    background-color: #efefef;
+    padding: 0;
+    margin: 0;
 }
 
 .main-box {
-  background-color: #6d8d23;
-  height: 400px;
-  width: 700px;
+    background-color: #6d8d23;
+    height: 400px;
+    width: 700px;
+}
+.tablink-container {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.tablink {
+    background-color: #efefef;
+    color: #131313;
+    cursor: pointer;
+    padding: .5em 0 .5em 0;
+    width: 25%;
+    border: none;
+    outline: none;
+}
+
+.tablink:hover {
+    background-color: #445209;
+}
+
+.tablink:active {
+    background-color: #6d8d23;
+}
+
+.tabcontent {
+    color: #efefef;
+    display: none;
+    padding: .5em;
+    height: 100%;
+}
+
+#basic {
+    background-color: pink;
+}
+
+#tab2 {
+    background-color: aqua;
+}
+
+#tab3 {
+    background-color: purple;
+}
+
+#tab4 {
+    background-color: indianred;
 }
