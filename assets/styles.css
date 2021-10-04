@@ -19,6 +19,11 @@ body {
     min-width: 370px;
 }
 
+.shifty-content-container {
+    position: relative;
+    top: -8px;
+}
+
 h2 {
     font-size: 3em; 
     color: #6d8d23;
@@ -62,8 +67,6 @@ h2 {
 
 .tabcontent {
     font-family: arial;
-    position: relative;
-    top: -10px;
     color: #eeefef;
     display: none;
     padding: .5em;
