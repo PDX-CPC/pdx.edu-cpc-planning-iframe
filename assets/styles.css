@@ -14,8 +14,8 @@ body {
 
 .main-box {
     background-color: #6d8d23;
-    height: 212px;
-    width: 370px;
+    min-height: 212px;
+    min-width: 370px;
 }
 
 h2 {
