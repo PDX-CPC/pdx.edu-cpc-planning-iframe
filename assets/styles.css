@@ -62,6 +62,8 @@ h2 {
 
 .tabcontent {
     font-family: arial;
+    position: relative;
+    top: -10px;
     color: #eeefef;
     display: none;
     padding: .5em;
