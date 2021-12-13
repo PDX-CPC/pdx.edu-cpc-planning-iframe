@@ -45,6 +45,9 @@ h3 {
     margin: 0;
 }
 
+.column h3 {
+    margin-bottom: 1%;
+}
 
 .row {
     display: flex
