@@ -66,7 +66,7 @@ h4 {
 .row {
     display: flex;
     /*Add borders on monday*/
-    /*border: solid #000;*/
+    border: solid #213921;
 }
 
 .column {
@@ -93,10 +93,6 @@ h4 {
     display: flex;
 }
 
-.column p {
-    
-}
-
 .columnmod {
     position: relative;
     padding: 1%;
@@ -121,7 +117,7 @@ h4 {
 }
 
 .columnh h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 0;
     color: #eeefef;
     background-color: transparent;
