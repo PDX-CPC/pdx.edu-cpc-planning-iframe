@@ -23,7 +23,7 @@ body {
 .headers {
     top: 0;
     position: sticky;
-    z-index: 10;
+    z-index: 11;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -66,7 +66,7 @@ h4 {
 .row {
     display: flex;
     /*Add borders on monday*/
-    border: solid #213921;
+    border-top: .15em solid #213921;
 }
 
 .column {
@@ -117,7 +117,7 @@ h4 {
 }
 
 .columnh h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 0;
     color: #eeefef;
     background-color: transparent;
