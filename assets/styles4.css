@@ -26,6 +26,7 @@ body {
     z-index: 11;
     margin-bottom: 0;
     padding-bottom: 0;
+    border-bottom: .15em solid #213921;
 }
 
 .shifty-content-container {
