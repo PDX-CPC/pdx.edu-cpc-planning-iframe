@@ -89,6 +89,11 @@ h4 {
     color: #eeefef;
     background-color: #6d8d23;
     height: 100%;
+
+    .CB {
+        color: red;
+    }
+
 }
 .rowh {
     display: flex;
@@ -132,3 +137,4 @@ h4 {
     bottom: 0px;
     margin-bottom: 1%;
 }
+

@@ -17,7 +17,16 @@ body {
     background-color: #6d8d23;
     min-height: 212px;
     min-width: 370px;
-    padding-bottom: 1%;
+    padding-bottom: 0%;
+}
+
+.headers {
+    top: 0;
+    position: sticky;
+    z-index: 11;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: .15em solid #213921;
 }
 
 .shifty-content-container {
@@ -45,20 +54,61 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    margin: 0;
+    font-family: "Oswald";
+    padding-left: 1%;
+}
+
 .column h3 {
     margin-bottom: 1%;
 }
 
 .row {
-    display: flex
+    display: flex;
+    /*Add borders on monday*/
+    border-top: .15em solid #213921;
 }
 
 .column {
     position: relative;
     padding: 1%;
     font-family: arial;
-    flex: 33.333333%;
+    flex: 25%;
     color: #eeefef;
+    background-color: #6d8d23;
+    min-height: 200px;
+    margin-bottom: 1%;
+}
+
+.columnh {
+    position: relative;
+    padding: 1%;
+    font-family: arial;
+    flex: 25%;
+    color: #eeefef;
+    background-color: #6d8d23;
+    height: 100%;
+}
+.rowh {
+    display: flex;
+}
+
+.columnmod {
+    position: relative;
+    padding: 1%;
+    font-family: arial;
+    flex: 25%;
+    background-color: #eeefef;
+    color: #6d8d23;
+    height: auto;
+}
+
+.mod{
+    color: #6d8d23;
+    font-family: "Oswald";
+    background-color: #eeefef;
+    height: 100vw;
 }
 
 .column h3 {
@@ -67,9 +117,18 @@ h3 {
     background-color: transparent;
 }
 
-.cost h3 {
+.columnh h3 {
+    font-size: 1.5em;
     padding: 0;
     color: #eeefef;
     background-color: transparent;
-    text-align: center;
+}
+
+.cost {
+    font-family: "Oswald";
+    color: #6d8d23;
+    padding-left: 1%;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 1%;
 }
