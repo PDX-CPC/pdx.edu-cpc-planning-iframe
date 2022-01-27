@@ -90,10 +90,6 @@ h4 {
     background-color: #6d8d23;
     height: 100%;
 
-    .CB {
-        color: red;
-    }
-
 }
 .rowh {
     display: flex;
