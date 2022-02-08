@@ -93,6 +93,7 @@ h4 {
 }
 .rowh {
     display: flex;
+    background-color: #6d8d23;
 }
 
 .columnmod {
@@ -149,7 +150,7 @@ h4 {
     }
 
     h4 {
-        font-size: .5em;
+        font-size: .75em;
     }
 
 }
